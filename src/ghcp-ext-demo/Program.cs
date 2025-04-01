@@ -13,7 +13,7 @@ app.MapGet("/", () => "Hello Copilot!");
 
 
 // make sure you change the App Name below
-string yourGitHubAppName = " ghcp-ext-demo ";
+string yourGitHubAppName = "ghcp-ext-demo";
 string githubCopilotCompletionsUrl = 
     "https://api.githubcopilot.com/chat/completions";
 
